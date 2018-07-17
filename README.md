@@ -5,4 +5,6 @@
 - go to deck.js and fill out object to specifications
 - run the index.html page and check out the console
 - you should have an output similar to this:
-<img src="outputexample.png">
+
+##### v2
+- fill out the code in game.js
