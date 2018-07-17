@@ -5,6 +5,7 @@ class Card{
 	purpose: add the data to the Card
 	params: suite (string), the suite of the card.  value (string), the value of the card (A, 1, 2, etc)
 	returns: none
+	*/
 	constructor(){
 
 	}

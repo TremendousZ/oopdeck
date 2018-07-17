@@ -28,3 +28,5 @@ function startup(){
 	console.log( player.name + ' has ' , player.deck );
 
 }
+
+startup();
