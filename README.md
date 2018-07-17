@@ -5,4 +5,4 @@
 - go to deck.js and fill out object to specifications
 - run the index.html page and check out the console
 - you should have an output similar to this:
-<img src="outputexmaple.png">
+<img src="outputexample.png">
