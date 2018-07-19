@@ -22,7 +22,7 @@ class Deck{
 	returns: the current count of cards
 	*/
 	createCard( suite , value ){
-		var card = new Card(suite,value);
+		this.card = new Card(suite,value);
 	}
 	/*
 	purpose: randomize the cards in the deck
@@ -30,7 +30,6 @@ class Deck{
 	returns: none
 	*/
 	randomizeDeck(){
-		debugger;
 		for (var cardIndex = 0; cardIndex < this.cards.length; cardIndex++){
 			var randomCardIndexPosition = Math.floor(Math.random() * this.cards.length);
 			var cardToSwitch = this.cards[cardIndex];
@@ -44,7 +43,7 @@ class Deck{
 	returns: the current count of cards
 	*/
 	addCard( card ){
-		this.cards.push( card );
+		this.cards.push( this.card );
 		return this.cards.length;
 	}
 	/*
